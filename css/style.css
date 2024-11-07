@@ -1,0 +1,55 @@
+/* Styles de base */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+  
+        width: 100%;
+        max-width: 1350px;
+        margin: 0 auto;
+        padding: 0 15px;
+      
+}
+.center{
+    text-align: center;
+}
+
+/* Styles de la hero section */
+.hero {
+    background: url(../img/oiseau.jpg) no-repeat center center; /* Image de fond */
+    background-size: cover;  /* Couvre toute la section */
+    height: 100vh;           /* Hauteur de la fenêtre */
+    width: 100%;
+    display: flex;/* sert a flexer les chose pour que le  tout soit bien mis*/
+    flex-direction: column;/*met sa en colum*/
+    align-items: center;/*permet a mettre le texte centrer par rapppor a la page*/
+    justify-content: center;/*alligne le texte au millieux de page */
+    text-align: center;/* a cas si  ces pas centrer*/
+    }
+
+/* Styles du texte */
+h1 {
+    font-size: 3em;
+    margin-bottom: 0.3em;
+
+}
+
+h2 {
+    font-size: 1.5em;
+}
+.backgoundgris{
+    background-color: #ebebeb;
+}
+
+.grid{
+    display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 20px;
+
+}
+.padding{
+    padding-bottom: 125px;
+}
+
